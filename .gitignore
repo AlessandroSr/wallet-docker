@@ -1,0 +1,23 @@
+# dotenv environment variable files
+api/.env
+spa/.env
+
+api/node_modules
+
+spa/node_modules
+spa/dist
+spa/dist-ssr
+spa/*.local
+
+# Editor directories and files
+spa/.vscode/*
+spa/!.vscode/extensions.json
+spa/.idea
+spa/.DS_Store
+spa/*.suo
+spa/*.ntvs*
+spa/*.njsproj
+spa/*.sln
+spa/*.sw?
+
+.DS_Store
